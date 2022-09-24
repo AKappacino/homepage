@@ -1,0 +1,131 @@
+body {
+  color: #0F3460;
+  margin: 0;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Racing Sans One', sans-serif;
+  color: #0F3460;
+}
+
+h2 {
+  color: #0F3460;
+  font-weight: bolder;
+  font-size: 2.25rem;
+}
+
+h3 {
+  color: #002B5B;
+  margin: 15px auto;
+  font-size: 1.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 10px dotted #0F3460;
+  width: 50px;
+  margin: 100px auto;
+}
+
+a {
+  color: #0F3460;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-image: url("../images/azerbaijan.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: auto;
+  padding: 450px 0 250px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #EFFFFD;
+  padding: 100px 0;
+}
+
+.bottom-container {
+  background-color: #0F3460;
+  padding: 50px 0 20px;
+}
+
+.hobbies-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.avengers {
+  height: 200px;
+  width: auto;
+}
+
+.img1 {
+  width: 33%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+.img2 {
+  width: 33%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.btn {
+  background: #0F3460;
+  background-image: linear-gradient(to bottom, #1C6DD0, #0F3460);
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+  background: #0F3460;
+  background-image: linear-gradient(to bottom, #0F3460, #3D84A8);
+}
+
+.p-contact {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.footer-link {
+  color: #7895B2;
+  text-decoration: bold;
+  font-size: 1.2em;
+}
+
+.copyright {
+  font-family: Georgia, serif;
+  font-size: 0.8rem;
+  color: #7895B2;
+  padding: 20px 0;
+}
